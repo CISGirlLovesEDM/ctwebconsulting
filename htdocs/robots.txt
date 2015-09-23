@@ -1,0 +1,6 @@
+# Robots.txt file from http://www.ctwebconsulting.com
+
+Sitemap: http://www.ctwebconsulting.com/sitemap.xml
+
+User-agent: *
+Disallow:

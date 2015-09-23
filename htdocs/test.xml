@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PaymentPostBack xmlns="http://www.officialpayments.com/PaymentPostBack/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<paymentIdentifier>355085fd-b202-47b5-aefe-a8504e557c8b</paymentIdentifier>
+<resultCode>A</resultCode>
+<resultText>Approved</resultText>
+<customDataElements>
+    <customDataElement sequenceNumber="1">1234567890</customDataElement>
+    <customDataElement sequenceNumber="2">Collection Notice</customDataElement>
+    <customDataElement sequenceNumber="3">2012</customDataElement>
+</customDataElements>
+<transactionDate>2012-09-26</transactionDate>
+<transactionTime>16:56:40</transactionTime>
+<paymentAmounts>
+    <paymentAmount sequenceNumber="1">123.23</paymentAmount>
+</paymentAmounts>
+<transactionFee>3.95</transactionFee>
+<totalCharge>127.18</totalCharge>
+<accountType>VD</accountType>
+<authorizationCode>123ABC</authorizationCode>
+<receiptNumber>123ABC</receiptNumber>
+<paymentID>1</paymentID>
+<phoneNumber>5556667777</phoneNumber>
+<name>
+<first>John</first>
+<middle>David</middle>
+<last>Miller</last>
+<suffix/>
+</name>
+<address>
+    <street1>1500 Main Street</street1>
+    <street2/>
+    <city>Los Angeles</city>
+    <stateOrProvince>CA</stateOrProvince>
+    <zipOrPostalCode>90210</zipOrPostalCode>
+    <countryCode>US</countryCode>
+</address>
+<emailAddress>email@emailprovider.com</emailAddress>
+<paymentChannel>net</paymentChannel>
+</PaymentPostBack>

@@ -1,0 +1,514 @@
+/*Make sure your selectors are very specific, you can accidentally overide builder css if you are not careful*/
+/*Do not edit positioning, width, height in CSS, set that in the markup*/
+/*CSS Changes, are somewhat permanent, user cannot change these, they can overide them via element inline style, but thats about it*/
+
+
+/* background */
+.font-to-remove {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Michroma', sans-serif;
+}
+
+.kreativ.default {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  /*Dropdown Dark*/
+  /*container*/
+  /*ul*/
+  /*li*/
+  /*a*/
+  /*hover*/
+  /*selected page*/
+}
+.kreativ.default.pagebg {
+  background-image: url("assets/kreativ-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kreativ.default .main-bg {
+  background: #ffffff;
+}
+.kreativ.default .title-bg {
+   background-color: #ffffff;
+}
+.kreativ.default .nav-bg {
+  background: url("assets/kreativ-nav-bg.png") top left no-repeat;
+}
+.kreativ.default .index-bg-1 {
+  background-color: #ffffff;
+}
+.kreativ.default .index-bg-2 {
+  background-color: #ffffff;
+}
+.kreativ.default .index-bg-3 {
+  background-color: #ffffff;
+}
+.kreativ.default .about-bg-1 {
+  background-color: #ffffff;
+}
+.kreativ.default .about-bg-2 {
+  background-color: #ffffff;
+}
+.kreativ.default .about-bg-3 {
+  background-color: #ffffff;
+}
+.kreativ.default .services-bg {
+  background-color: #ffffff;
+}
+.kreativ.default .contact-bg-1 {
+  background-color: #ffffff;
+}
+.kreativ.default .contact-bg-2 {
+  background-color: #ffffff;
+}
+.kreativ.default .mapa {
+  border: 6px solid #ffffff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.kreativ.default .footer-bg {
+  background-color: #ffffff;
+}
+.kreativ.default p {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.f-image{
+  border-radius:40px;
+}
+.kreativ.default h1,
+.kreativ.default h2,
+.kreativ.default h3,
+.kreativ.default h4,
+.kreativ.default h5,
+.kreativ.default h6 {
+  padding: 0;
+  margin: 0;
+}
+.kreativ.default h1 {
+  font-family: 'Michroma', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: none;
+}
+.kreativ.default h1 span {
+  color: #6a8cb3;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.kreativ.default h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.kreativ.default h3 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 27px;
+  line-height: 34px;
+  font-weight: 600;
+}
+.kreativ.default h3.title-top {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #3d260c;
+}
+.kreativ.default h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 53px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.kreativ.default h4.second {
+  font-family: 'Gentium Basic', serif;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.kreativ.default h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+}
+.kreativ.default h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.kreativ.default p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 300; 
+}
+.kreativ.default p.txt-1 {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 33px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.kreativ.default p.txt-2 {
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.kreativ.default p.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+}
+.kreativ.default p.footer-1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+}
+.kreativ.default ul.list-item {
+  padding: 0;
+  margin: 0;
+}
+.kreativ.default ul.list-item li {
+  font-family: 'Ubuntu', sans-serif;
+  color: #3c260c;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  list-style: none;
+  background: url("assets/kreativ-li.png") 0 3px no-repeat;
+  padding: 0 0 0 25px;
+  margin-bottom: 15px;
+}
+/****************/
+/* neo main nav */
+/****************/
+.kreativ.default .navigation-2-plugin .neo-asset-inner ul {
+	font-family: 'Cabin', sans-serif;
+}
+.kreativ.default .navigation-2-plugin .neo-asset-inner > ul > li {
+	padding-top: 14px;
+	padding-right: 18px;
+	padding-bottom: 14px;
+	padding-left: 18px;
+	margin-bottom: 0px;
+	background-color: transparent;
+	font-size: 20px;
+}
+.kreativ.default .navigation-2-plugin .neo-asset-inner > ul > li > a {
+	color: #6a8cb3;
+}
+.kreativ.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover {
+	background-color: #FFF;
+	font-size: 20px;
+}
+.kreativ.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-hover > a {
+	color: #3C260C;
+}
+.kreativ.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active {
+	background-color: #FFF;
+	font-size: 20px;
+}
+.kreativ.default .navigation-2-plugin .neo-asset-inner > ul > li.k-state-active > a {
+	color: #3C260C;
+}
+
+/***************/
+/* neo sub nav */
+/***************/
+.kreativ.default .navigation-2-plugin.sub-nav-fixed-plugin ul ul > li {
+width: 130px;
+}
+.kreativ.default .navigation-2-plugin ul ul > li {
+	padding-top: 14px;
+	padding-right: 114px;
+	padding-bottom: 14px;
+	padding-left: 14px;
+	margin-top: 2px;
+	margin-left:3px;
+	background-color: #6a8cb3;
+	font-size: 20px;
+}
+.kreativ.default .navigation-2-plugin ul ul > li > a {
+	color: #FFF;
+}
+.kreativ.default .navigation-2-plugin ul ul > li.k-state-hover {
+	background-color: #3d76b8;
+	font-size: 20px;
+}
+.kreativ.default .navigation-2-plugin ul ul > li.k-state-hover > a {
+	color: #FFF;
+}
+.kreativ.default .navigation-2-plugin ul ul > li.k-state-active {
+	background-color: #3d76b8;
+	font-size: 20px;
+}
+.kreativ.default .navigation-2-plugin ul ul > li.k-state-active > a {
+	color: #FFF;
+} 
+/*****************/
+/* END NEO NAV 2 */
+/*****************/
+.kreativ.default div.form-plugin #FormHeading-id {
+  display: none;
+}
+.kreativ.default div.form-plugin table table label {
+  font-weight: normal;
+}
+.kreativ.default div.form-plugin label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #606060;
+  text-transform: lowercase;
+  width: 200px;
+  text-transform: capitalize;
+  padding-bottom: 0px;
+}
+.kreativ.default div.form-plugin input[type="text"],
+.kreativ.default div.form-plugin textarea, 
+.kreativ.default .form-element.form-element-size-medium,
+.kreativ.default .form-element.form-element-size-large,
+.kreativ.default .form-element.form-element-size-small {
+  background-color: #ffffff;
+  outline: none;
+  border: 1px solid #08355a;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  padding: 3px 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #08355a;
+  width: 200px;
+  min-width: 200px;
+}
+.kreativ.default div.form-plugin #subject-id input[type="text"] {
+  width: 430px;
+  min-width: 430px;
+}
+.kreativ.default div.form-plugin textarea {
+  width: 430px;
+  min-width: 430px;
+  height: 60px;
+}
+.kreativ.default div.form-plugin .form-element-wrapper {
+  display: block;
+  padding: 0 0 7px 0;
+}
+.kreativ.default div.form-plugin .form-element-wrapper#name-id table .FirstName input {
+  margin-right: 20px;
+  display: block;
+}
+.kreativ.default div.form-plugin .form-element-wrapper#email-id {
+  display: inline-block !important;
+  width: 200px;
+  margin-right: 25px;
+}
+.kreativ.default div.form-plugin .form-element-wrapper#phone-id {
+  display: inline-block !important;
+  width: 200px;
+}
+.kreativ.default div.form-plugin input[type="submit"] {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #e30d0d;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 2px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 2px 0px;
+  padding: 2px 15px;
+  margin: 10px auto;
+  display: block;
+  border: none;
+}
+.kreativ.default .divider-long {
+  border: none;
+  border-bottom: 2px solid #7e817f;
+}
+.kreativ.default .divider-short {
+  border: none;
+  border-bottom:solid 2px #7e817f;
+}
+.kreativ.default .divider-med {
+  border: none;
+  border-bottom:solid 2px #7e817f;
+}
+.kreativ.default .divider-services {
+  border: none;
+  border-bottom: 2px solid #7e817f;
+}
+.kreativ.default .trans {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+.kreativ.default p.lh27,
+.kreativ.default h1.lh27,
+.kreativ.default h2.lh27,
+.kreativ.default h3.lh27,
+.kreativ.default h4.lh27,
+.kreativ.default h5.lh27,
+.kreativ.default h6.lh27 {
+  line-height: 27px;
+}
+.kreativ.default p.lh25,
+.kreativ.default h1.lh25,
+.kreativ.default h2.lh25,
+.kreativ.default h3.lh25,
+.kreativ.default h4.lh25,
+.kreativ.default h5.lh25,
+.kreativ.default h6.lh25 {
+  line-height: 25px;
+}
+.kreativ.default p.lh24,
+.kreativ.default h1.lh24,
+.kreativ.default h2.lh24,
+.kreativ.default h3.lh24,
+.kreativ.default h4.lh24,
+.kreativ.default h5.lh24,
+.kreativ.default h6.lh24 {
+  line-height: 24px;
+}
+.kreativ.default p.lh30,
+.kreativ.default h1.lh30,
+.kreativ.default h2.lh30,
+.kreativ.default h3.lh30,
+.kreativ.default h4.lh30,
+.kreativ.default h5.lh30,
+.kreativ.default h6.lh30 {
+  line-height: 30px;
+}
+.kreativ.default p.left,
+.kreativ.default h1.left,
+.kreativ.default h2.left,
+.kreativ.default h3.left,
+.kreativ.default h4.left,
+.kreativ.default h5.left,
+.kreativ.default h6.left {
+  text-align: left;
+}
+.kreativ.default p.center,
+.kreativ.default h1.center,
+.kreativ.default h2.center,
+.kreativ.default h3.center,
+.kreativ.default h4.center,
+.kreativ.default h5.center,
+.kreativ.default h6.center {
+  text-align: center;
+}
+.kreativ.default p.right,
+.kreativ.default h1.right,
+.kreativ.default h2.right,
+.kreativ.default h3.right,
+.kreativ.default h4.right,
+.kreativ.default h5.right,
+.kreativ.default h6.right {
+  text-align: right;
+}
+.kreativ.default p.bold,
+.kreativ.default h1.bold,
+.kreativ.default h2.bold,
+.kreativ.default h3.bold,
+.kreativ.default h4.bold,
+.kreativ.default h5.bold,
+.kreativ.default h6.bold {
+  font-weight: 700;
+}
+.kreativ.default p.semibold,
+.kreativ.default h1.semibold,
+.kreativ.default h2.semibold,
+.kreativ.default h3.semibold,
+.kreativ.default h4.semibold,
+.kreativ.default h5.semibold,
+.kreativ.default h6.semibold {
+  font-weight: 600;
+}
+.kreativ.default p.normal,
+.kreativ.default h1.normal,
+.kreativ.default h2.normal,
+.kreativ.default h3.normal,
+.kreativ.default h4.normal,
+.kreativ.default h5.normal,
+.kreativ.default h6.normal {
+  font-weight: 400;
+}
+.kreativ.default p.light,
+.kreativ.default h1.light,
+.kreativ.default h2.light,
+.kreativ.default h3.light,
+.kreativ.default h4.light,
+.kreativ.default h5.light,
+.kreativ.default h6.light {
+  font-weight: 300;
+}
+.kreativ.default p.white,
+.kreativ.default h1.white,
+.kreativ.default h2.white,
+.kreativ.default h3.white,
+.kreativ.default h4.white,
+.kreativ.default h5.white,
+.kreativ.default h6.white {
+  color: #ffffff;
+}
+.kreativ.default p.black,
+.kreativ.default h1.black,
+.kreativ.default h2.black,
+.kreativ.default h3.black,
+.kreativ.default h4.black,
+.kreativ.default h5.black,
+.kreativ.default h6.black {
+  color: #000000;
+}
+.kreativ.default p.gray,
+.kreativ.default h1.gray,
+.kreativ.default h2.gray,
+.kreativ.default h3.gray,
+.kreativ.default h4.gray,
+.kreativ.default h5.gray,
+.kreativ.default h6.gray {
+  color: #666666;
+}
+.kreativ.default p.blue,
+.kreativ.default h1.blue,
+.kreativ.default h2.blue,
+.kreativ.default h3.blue,
+.kreativ.default h4.blue,
+.kreativ.default h5.blue,
+.kreativ.default h6.blue {
+  color: #6a8cb3;
+}
+.kreativ.default p.red,
+.kreativ.default h1.red,
+.kreativ.default h2.red,
+.kreativ.default h3.red,
+.kreativ.default h4.red,
+.kreativ.default h5.red,
+.kreativ.default h6.red {
+  color: #e30d0d;
+}
+.kreativ.default p.p0,
+.kreativ.default h1.p0,
+.kreativ.default h2.p0,
+.kreativ.default h3.p0,
+.kreativ.default h4.p0,
+.kreativ.default h5.p0,
+.kreativ.default h6.p0 {
+  padding: 0;
+}
